@@ -2,6 +2,7 @@
 /**
 *
 * Thanks For Posts extension for the phpBB Forum Software package.
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * @copyright (c) 2013 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
@@ -35,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACL_F_THANKS' 						=> 'Saab tänada postitusi',
-	'ACL_M_THANKS' 						=> 'Saab puhastada tänude listi',
-	'ACL_U_VIEWTHANKS' 					=> 'Saab vaadata tänunimekirja',
+	'ACL_M_THANKS' 						=> 'Saab puhastada tänude nimekirja',
+	'ACL_U_VIEWTHANKS' 					=> 'Saab vaadata tänude nimekirja',
 	'ACL_U_VIEWTOPLIST'					=> 'Saab vaadata topi',
 			));
