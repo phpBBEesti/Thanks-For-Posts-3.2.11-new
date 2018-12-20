@@ -2,6 +2,7 @@
 /**
 *
 * Thanks For Posts extension for the phpBB Forum Software package.
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * @copyright (c) 2013 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
@@ -36,22 +37,22 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_DELTHANKS'	=> 'Kustuta salvestatud tänu',
 	'ACP_POSTS'	=> 'Postitusi kokku',
-	'ACP_POSTSEND' => 'Remaining posts with thanks',
-	'ACP_POSTSTHANKS' => 'Total posts with thanks',
+	'ACP_POSTSEND' => 'Ülejäänud tänatud postitused',
+	'ACP_POSTSTHANKS' => 'Tänatud postitusi kokku',
 	'ACP_THANKS' => 'Tänatud postitused',
 	'ACP_THANKS_MOD_VER' => 'Mooduli versioon: ',
-	'ACP_THANKS_TRUNCATE' => 'Tühjenda tänude list',
-	'ACP_ALLTHANKS'	=> 'Thanks taken into account',
+	'ACP_THANKS_TRUNCATE' => 'Tühjenda tänude nimekiri',
+	'ACP_ALLTHANKS'	=> 'Tänude loendur',
 	'ACP_THANKSEND'	=> 'Thanks remaining to take into account',
 	'ACP_THANKS_REPUT' => 'Reitingu seaded',
-	'ACP_THANKS_REPUT_SETTINGS'	=> 'Rating Options',
-	'ACP_THANKS_REPUT_SETTINGS_EXPLAIN'	=> 'Set the default settings for the rating of posts, topics and forums, based on the thanks system here. <br /> Subject (post, topic or forum) which has the largest total number of thanks is given 100% rating.',
+	'ACP_THANKS_REPUT_SETTINGS'	=> 'Reitingu valikud',
+	'ACP_THANKS_REPUT_SETTINGS_EXPLAIN'	=> 'Siin saate määrata postituste, teemade ja foorumite reitingute vaikeseaded. <br /> Teema (postitus, teema või foorum), millel on kõige rohkem tänu, antakse 100% reiting.',
 	'ACP_THANKS_SETTINGS' => 'Tänude Seaded',
-	'ACP_THANKS_SETTINGS_EXPLAIN' => 'Default Thanks for posts settings can be changed here.',
+	'ACP_THANKS_SETTINGS_EXPLAIN' => 'Tänatud postituste seadeid saate siit muuta.',
 	'ACP_THANKS_REFRESH' => 'Uuenda loendurit',
-	'ACP_UPDATETHANKS' => 'Updated recorded thanks',
-	'ACP_USERSEND' => 'Remaining users who thanked',
-	'ACP_USERSTHANKS' => 'Total users who thanked',
+	'ACP_UPDATETHANKS' => 'Salvestatud tänud uuendatud',
+	'ACP_USERSEND' => 'Ülejäänud kasutajad kes tänasid',
+	'ACP_USERSTHANKS' => 'Kokku kasutajaid kes tänasid',
 
 	
 
@@ -60,26 +61,26 @@ $lang = array_merge($lang, array(
 	
 	
 	
-	'IMG_THANKPOSTS' => 'To thank for the post',
-	'IMG_REMOVETHANKS' => 'Cancel thanks',
+	'IMG_THANKPOSTS' => 'Täname postituse eest',
+	'IMG_REMOVETHANKS' => 'Tühista tänu',
 
-	'LOG_CONFIG_THANKS'	=> 'Updated configuration of Thanks for post Extension',
-	'REFRESH' => 'Uuenda (refresh)',
+	'LOG_CONFIG_THANKS'	=> 'Tänude mooduli konfiguratsioon uuendatud',
+	'REFRESH' => 'Uuenda',
 	'REMOVE_THANKS'	=> 'Luba tänu eemaldada',
 	'REMOVE_THANKS_EXPLAIN'	=> 'Kasutajad saavad kustutada tänu, kui see on lubatud.',
 
 	
-	'STEPR'	=> ' - executed, step %s',
-	'THANKS_COUNTERS_VIEW' => 'Tänude loendaja',
+	'STEPR'	=> ' - täidetud, samm %s',
+	'THANKS_COUNTERS_VIEW' => 'Tänude loendur',
 	
-	'THANKS_COUNTERS_VIEW_EXPLAIN' => 'If enabled, the block information about the author will show the number of issued/received thanks.',
+	'THANKS_COUNTERS_VIEW_EXPLAIN' => 'Kui see on lubatud, näitab autori blokeerimisandmete arv antud / saadud tänud.',
 	'THANKS_FORUM_REPUT_VIEW' => 'Kuva foorumite reiting',
 	
 	
-	'THANKS_GLOBAL_POST' => 'Thanks in Global Announcements',
-	'THANKS_GLOBAL_POST_EXPLAIN' => 'If enabled, Thanks in Global Announce enabled.',
-	'THANKS_FORUM_REPUT_VIEW_EXPLAIN' => 'If enabled, forum rating will be displayed in the forums list.',
-	'THANKS_INFO_PAGE' => 'Informative messages',
+	'THANKS_GLOBAL_POST' => 'Globaalsete teadaannete tänamine',
+	'THANKS_GLOBAL_POST_EXPLAIN' => 'Kui see on lubatud, siis saab tänada globaalseid teadaandeid.',
+	'THANKS_FORUM_REPUT_VIEW_EXPLAIN' => 'Kui see on lubatud, kuvatakse foorumite reiting foorumite loendis.',
+	'THANKS_INFO_PAGE' => 'Informatiivsed sõnumid',
 	'THANKS_INFO_PAGE_EXPLAIN' => 'If enabled, informative messages will be displayed after thanking/removing thanks for the post.',
 	'THANKS_NOTICE_ON' => 'Notices are available',
 	'THANKS_NOTICE_ON_EXPLAIN' => 'If enabled, notice are available and the user can configure the notification via your profile.',
