@@ -2,6 +2,7 @@
 /**
 *
 * Thanks For Posts extension for the phpBB Forum Software package.
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * @copyright (c) 2013 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
@@ -47,7 +48,7 @@ $lang = array_merge($lang, array(
 	'GIVEN'						=> 'Tänanud',
 	
 	
-	'GLOBAL_INCORRECT_THANKS'	=> 'You cannot give thanks for a Global Announcement that has no reference to a particular forum.',
+	'GLOBAL_INCORRECT_THANKS'	=> 'Te ei saa tänada globaalset teatist, millel puudub konkreetse foorumi viide.',
 	'GRATITUDES'				=> 'Tänunimekiri',
 	'INCORRECT_THANKS'			=> 'Tänu lisamine ebaõnnestus',
 	'JUMP_TO_FORUM'				=> 'Hüppa foorumisse',
@@ -66,8 +67,8 @@ $lang = array_merge($lang, array(
 		2 => '<strong>Sind tänas kasutaja</strong> %1$s selle postituse eest:',
 	),
 	'NOTIFICATION_THANKS_REMOVE'=> array(
-		1 => '<strong>Removed thank</strong> from %1$s for the post:',
-		2 => '<strong>Removed thanks</strong> from %1$s for the post:',
+		1 => '<strong>Tänu eemaldatud</strong> postituselt %1$s:',
+		2 => '<strong>Tänud eemaldatud</strong> postituselt %1$s:',
 	),
 	'NOTIFICATION_TYPE_THANKS' => 'Tänati postituse eest',
 	'NOTIFICATION_TYPE_THANKS_GIVE'		=> 'Keegi tänas teid postituse eest',
@@ -90,7 +91,7 @@ $lang = array_merge($lang, array(
 	'THANK'						=> 'aeg',
 	
 	
-	'THANK_FROM'				=> 'from',
+	'THANK_FROM'				=> 'alates',
 	'THANK_TEXT_1'				=> 'Kes tänasid kasutajat ',
 	'THANK_TEXT_2' => array(
 		1 => ' selle postituse eest: ',
@@ -106,10 +107,10 @@ $lang = array_merge($lang, array(
 	'THANKS_INFO_GIVE'			=> 'Sa just tänasid kasutajat selle postituse eest.',
 	'THANKS_INFO_REMOVE'		=> 'Eemaldasid enda tänud!',
 	'THANKS_LIST'				=> 'Kuva/peida nimekiri',
-	'THANKS_PM_MES_GIVE'		=> 'has thanked you for the post',
-	'THANKS_PM_MES_REMOVE'		=> 'has removed thank for the post',
-	'THANKS_PM_SUBJECT_GIVE'	=> 'Thank for the post',
+	'THANKS_PM_MES_GIVE'		=> 'tänas teid postituse eest',
+	'THANKS_PM_MES_REMOVE'		=> 'eemaldas tänu postituse eest',
+	'THANKS_PM_SUBJECT_GIVE'	=> 'Täname postituse eest',
 	'THANKS_PM_SUBJECT_REMOVE'	=> 'Eemalda tänu sellelt postituselt',
-	'THANKS_USER'				=> 'Tänunimekiri',
-	'TOPLIST'					=> 'Postituste toplist',
+	'THANKS_USER'				=> 'Tänude nimekiri',
+	'TOPLIST'					=> 'Postituste top',
 ));
